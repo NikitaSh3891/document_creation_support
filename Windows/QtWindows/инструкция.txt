@@ -1,0 +1,5 @@
+cd /D D:\Учеба\4 курс\Диплом\Программы\document_creation_support\Windows\QtWindows
+pyuic5 -x .ui -o .py
+
+cd /D D:\Учеба\4 курс\Диплом\Программы\document_creation_support
+pyinstaller -w -F main.py
